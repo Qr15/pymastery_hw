@@ -1,0 +1,11 @@
+# string = hello
+string = input('Enter a word: ')
+print(f'1. {string[2]:>5}')
+print('2.', string[-2])
+print('3.', string[0:5])
+print('4.', string[:-2])
+print('5.', string[::2])
+print('6.', string[1::2])
+print('7.', string[::-1])
+print('8.', string[::-2])
+print('9.', len(string))
