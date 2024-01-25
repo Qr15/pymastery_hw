@@ -1,4 +1,4 @@
 text = "si vis pacem para bellum"
-text_cut = len(text) // 2
-result = text[text_cut:] + text[:text_cut]
+parts = text.split()
+result = ' '.join(parts[len(parts) // 2:] + parts[:len(parts) // 2])
 print(result)
