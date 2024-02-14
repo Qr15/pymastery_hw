@@ -7,3 +7,6 @@ for chosen in range(7):
     win_numbers.append(chosen)
 
 print(win_numbers)
+
+
+

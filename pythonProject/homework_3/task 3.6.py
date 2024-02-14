@@ -14,3 +14,7 @@ for number in sales:
     total_sales += number
 
 print(f"Общая сумма продаж: {total_sales}")
+
+
+
+

@@ -26,3 +26,5 @@ elif player == 'б' and computer == 'к':
     print('Победил игрок')
 elif player == 'б' and computer == 'н':
     print('Победил компьютер')
+
+
